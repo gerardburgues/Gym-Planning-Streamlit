@@ -5,11 +5,11 @@ gym_plan = [
     {
         "day_name": "Day 1 - Monday (Legs & Posterior Chain Focus)",
         "exercises": [
-            {"name": "Barbell Back Squat", "sets": "4", "reps": "5-8", "rpe": "8", "image_url_placeholder": "URL for Barbell Back Squat image"},
-            {"name": "Romanian Deadlift", "sets": "3", "reps": "8-10", "rpe": "8", "image_url_placeholder": "URL for Romanian Deadlift image"},
-            {"name": "Bulgarian Split Squat", "sets": "3", "reps": "10-12", "rpe": "7", "image_url_placeholder": "URL for Bulgarian Split Squat image"},
-            {"name": "Lying Leg Curl (Machine)", "sets": "3", "reps": "12-15", "rpe": "7", "image_url_placeholder": "URL for Lying Leg Curl image"},
-            {"name": "Seated Calf Raises", "sets": "3", "reps": "15-20", "rpe": "8", "image_url_placeholder": "URL for Seated Calf Raises image"},
+            {"name": "Barbell Back Squat", "sets": "4", "reps": "5-8", "rpe": "8", "image_url_placeholder": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.menshealth.com%2Fuk%2Fworkouts%2Fa41051818%2Fbest-squat-exercises%2F&psig=AOvVaw0gZ3CV_9DLKU_nIqRM_yAf&ust=1748546640748000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIC-tOn7xo0DFQAAAAAdAAAAABAE"},
+            {"name": "Romanian Deadlift", "sets": "3", "reps": "8-10", "rpe": "8", "image_url_placeholder": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fphysicalculturestudy.com%2F2016%2F01%2F12%2Fwho-created-the-romanian-deadlift%2F&psig=AOvVaw0HRKqSVOA9YaMzQGm7daS4&ust=1748549312764000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNiMgPj7xo0DFQAAAAAdAAAAABAE"},
+            {"name": "Bulgarian Split Squat", "sets": "3", "reps": "10-12", "rpe": "7", "image_url_placeholder": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gymshark.com%2Fblog%2Farticle%2Fhow-to-bulgarian-split-squat&psig=AOvVaw09kVr_sNZXdFaGtWxseeMb&ust=1748549343069000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKC9voX8xo0DFQAAAAAdAAAAABAE"},
+            {"name": "Lying Leg Curl (Machine)", "sets": "3", "reps": "12-15", "rpe": "7", "image_url_placeholder": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.burnthefatinnercircle.com%2Fpublic%2FLying-Leg-Curls.cfm&psig=AOvVaw2CD1XdYpnSbzTr46x07GMZ&ust=1748549361715000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKCs_I78xo0DFQAAAAAdAAAAABAE"},
+            {"name": "Seated Calf Raises", "sets": "3", "reps": "15-20", "rpe": "8", "image_url_placeholder": "https://www.google.com/imgres?q=Seated%20Calf%20Raises&imgurl=https%3A%2F%2Fweighttraining.guide%2Fwp-content%2Fuploads%2F2016%2F10%2FLever-Seated-Calf-Raise-plate-loaded-resized.png&imgrefurl=https%3A%2F%2Fweighttraining.guide%2Fexercises%2Fseated-calf-raise%2F&docid=xkGhowOI4lWHPM&tbnid=-488n9K1-yHvhM&vet=12ahUKEwjztKWW_MaNAxWxIRAIHb6zBgkQM3oECHQQAA..i&w=1320&h=880&hcb=2&ved=2ahUKEwjztKWW_MaNAxWxIRAIHb6zBgkQM3oECHQQAA"},
         ]
     },
     {
