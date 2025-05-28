@@ -11,7 +11,7 @@ gym_plan = [
             {"name": "Lying Leg Curl (Machine)", "sets": "3", "reps": "12-15", "rpe": "7", "image_url_placeholder": "https://www.burnthefatinnercircle.com/members/images/1255.jpg?cb=20250102035845"},
             {"name": "Seated Calf Raises", "sets": "3", "reps": "15-20", "rpe": "8", "image_url_placeholder": "https://www.google.com/imgres?q=Seated%20Calf%20Raises&imgurl=https%3A%2F%2Fweighttraining.guide%2Fwp-content%2Fuploads%2F2016%2F10%2FLever-Seated-Calf-Raise-plate-loaded-resized.png"},
         ]
-    },
+    }, 
     {
         "day_name": "Day 2 - Wednesday (Upper Push & Posture Correction)",
         "exercises": [
