@@ -59,12 +59,28 @@ for day in gym_plan:
         
         with col1:
             st.markdown(f"**Sets:** {exercise['sets']} | **Reps:** {exercise['reps']} | **RPE:** {exercise['rpe']}")
-            img_url = st.text_input("Image URL:", value="", key=f"{day['day_name']}_{exercise['name']}_url", placeholder=exercise["image_url_placeholder"])
-            if img_url:
-                st.image(img_url, width=300, caption=exercise['name'])
+            
+            # Use exercise["image_url_placeholder"] as the default value for the text input.
+            # The user can still change it.
+            default_img_url = exercise.get("image_url_placeholder", "")
+            
+            current_img_url = st.text_input(
+                "Image URL:", 
+                value=default_img_url, 
+                key=f"{day['day_name']}_{exercise['name']}_url", 
+                placeholder="Enter direct image URL (e.g., ends with .jpg, .png)"
+            )
+            
+            if current_img_url:
+                # Attempt to display the image from the current_img_url (either default or user-entered)
+                # Add error handling in case the URL is invalid or image can't be loaded
+                try:
+                    st.image(current_img_url, width=300, caption=exercise['name'])
+                except Exception as e:
+                    st.warning(f"Could not load image from URL. Please check the link. Error: {e}")
         
         with col2:
-            if not img_url: # Show placeholder text if no image URL yet
+            if not current_img_url: # Show placeholder text if no image URL yet
                  st.markdown("_Enter image URL to display picture_")
 
         st.markdown("---")
